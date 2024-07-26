@@ -16,7 +16,7 @@ public class BankApp {
 				System.out.println("--------------------------------------------");
 				System.out.println("1.계좌생성 ㅣ 2.계좌목록 ㅣ 3.예금 ㅣ 4.출금 ㅣ 5.종료");
 				System.out.println("--------------------------------------------");
-				System.out.println("선택> ");
+				System.out.print("선택> ");
 				
 				int selectNo = Integer.parseInt(scanner.nextLine());
 				if (selectNo == 1) {
